@@ -11,7 +11,7 @@ List::List()
 {
 	m_first = nullptr;
 	m_last = nullptr;
-	int m_size;
+        m_size = 0;
 }
 
 int List::get_size()
