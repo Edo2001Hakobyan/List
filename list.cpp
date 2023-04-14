@@ -205,6 +205,7 @@ List::List(const List& other)
 
 List::~List()
 {
+	assert(!is_empty());
 	Node* current = m_first;
 	while (current != nullptr)
 	{
